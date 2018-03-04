@@ -1,0 +1,192 @@
+/* CSS */
+
+
+/*** CABEÇALHO ***/
+#principal {
+    width: 900px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px 8px #cccccc;
+}
+
+#cabecalho {
+    width: 900px;
+    height: 150px;
+    background-color: #ffa31a;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#titulo {
+    width: 550px;
+    height: 150px;
+    border-top-left-radius: 50px;
+    float: left;
+}
+
+#titulo_cms {
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #4d2600;
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#logo {
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+/*** ÁREA DOS MENUS ***/
+#area_menu {
+    width: 900px;
+    height: 104px;
+}
+
+.menus {
+    width: 150px;
+    height: 84px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.icone_menu {
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.acende:hover {
+    opacity: 0.8;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(0.9);
+}
+
+.desc_menu {
+    width: 150px;
+    height: 20px;
+}
+
+.desc_formatacao {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#bemVindo {
+    width: 250px;
+    height: 84px;
+    float: left;
+    margin-top: 10px;
+}
+
+#desc_welcome {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#logout {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #ffa31a;
+    float: right;
+    padding-top: 15px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/*** CONTEÚDO DO SISTEMA ***/
+#conteudo {
+    width: 900px;
+    height: 420px;
+    background-color: #ffd699;
+}
+
+#paginas_left {
+    width: 300px;
+    height: 360px;
+    margin-left: 30px;
+    padding-top: 20px;
+    float: left;
+}
+
+#paginas_right {
+    width: 300px;
+    height: 360px;
+    padding-top: 20px;
+    float: left;
+    margin-left: 50px;
+}
+
+.paginas {
+    width: 300px;
+    height: 64px;
+    margin-top: 30px;
+}
+
+.icone_pagina {
+    width: 64px;
+    height: 64px;
+    float: left;
+}
+
+.desc_pagina {
+    width: 220px;
+    height: 20px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 6px;
+}
+
+.desc_p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: black;
+    text-align: left;
+    font-size: 17px;
+}
+
+/***************** RODAPÉ *******************/
+
+#rodape {
+    width: 900px;
+    height: 50px;
+    background-color: #ffa31a;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#center {
+    width: 350px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+#desc_rodape {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #4d2600;
+    text-align: center;
+    font-weight: bold;
+}

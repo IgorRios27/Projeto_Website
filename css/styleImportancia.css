@@ -1,0 +1,305 @@
+/* CSS */
+
+body {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#important {
+    margin: auto;
+    font-family: sans-serif;
+    color: #ffa31a;
+    float: left;
+}
+
+#clique {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #4d2600;
+}
+
+#txt {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    color: #4d2600;
+}
+
+#list {
+    margin: 0;
+    font-family: sans-serif;
+    color: #4d2600;
+    font-size: 17px;
+}
+
+h4 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    float: right;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.classe {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.titles {
+    margin: 0;
+    color: #4d2600;
+    font-family: sans-serif;
+}
+
+.estilo {
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #4d2600;
+}
+
+.estilo .link{
+    margin-left: 17px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #4d2600;
+}
+
+/******************** CABEÇALHO ********************/
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ffa31a;
+    position: fixed;
+    z-index: 999;
+}
+
+#center {
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+nav {
+    width: 870px;
+    height: 40px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 65px;
+    border-bottom: solid 3px #4d2600;
+}
+
+.itens_menu {
+    width: 145px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    transition: 2s;
+}
+
+.itens_menu:hover {
+    background-color: #4d2600;
+    transition: 1s;
+}
+
+a {
+    color: #4d2600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e7ddb5;
+}
+
+/***************** CONTEÚDO DO SITE *****************/
+#ajuste {
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+}
+
+#area_conteudo {
+    width: 1200px;
+    min-height: 650px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    width: 1400px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo_importancia {
+    width: 1200px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+#conteudo {
+    width: 1200px;
+    height: 545px;
+}
+
+#texto {
+    width: 710px;
+    height: 545px;
+    margin-left: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+#img_um {
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-right: 15px;
+}
+
+#veja_tambem {
+    width: 600px;
+    height: 25px;
+    color: #4d2600;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    padding-top: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 410px;
+    background-color: #ffd699;
+}
+
+#img_fundo {
+    width: 100%;
+    height: 70px;
+    background:url(../imagens/fundoFooter.png) repeat-x top center;
+}
+
+#centralizar {
+    width: 1200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+#trabalheConosco {
+    width: 410px;
+    height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #009348;
+}
+
+#linha {
+   width: 500px;
+    height: 2px;
+    background-color: #4d2600;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#text {
+    width: 355px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #ff7500;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#atendimento {
+    width: 220px;
+    height: 170px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 50px;
+    color: #4d2600;
+}
+
+#entrega {
+    width: 220px;
+    height: 170px;
+    margin-top: 50px;
+    float: left;
+    margin-right: 50px;
+    color: #4d2600;
+}
+
+#navegacao {
+    width: 220px;
+    height: 170px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 20px;
+}
+
+#pagamento {
+    width: 300px;
+    height: 95px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 30px;
+}
+
+
+.cartoes {
+    width: 64px;
+    height: 64px;
+    margin-top: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+#seguranca {
+    width: 100%;
+    height: 40px;
+    background-color: #ffa31a;
+}
+
+#direitos {
+    width: 500px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #4d2600;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}

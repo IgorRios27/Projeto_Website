@@ -1,0 +1,164 @@
+/* CSS */
+
+/*** CABEÇALHO ***/
+#principal {
+    width: 900px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px 8px #cccccc;
+}
+
+#cabecalho {
+    width: 900px;
+    height: 150px;
+    background-color: #ffa31a;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#titulo {
+    width: 550px;
+    height: 150px;
+    border-top-left-radius: 50px;
+    float: left;
+}
+
+#titulo_cms {
+    font-family: sans-serif;
+    font-size: 27px;
+    color: #4d2600;
+    float: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+#logo {
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+#config {
+    width: 900px;
+    height: 50px;
+}
+
+#seta {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+#desc_cad {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #4d2600;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+}
+
+/*** TABELA PARA CONSULTAR OS DADOS DO FALE CONOSCO ***/
+#consulta_dados {
+    width: 835px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+    background-color: #f2f2f2;
+}
+
+.consulta {
+    width: 815px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.desc_tipos {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #4d2600;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+.tipos {
+    width: 160px;
+    height: 25px;
+    background-color: #ffa31a;
+    float: left;
+    margin-right: 3px;
+}
+
+.dados {
+    width: 160px;
+    height: 24px;
+    background-color: #ffd699;
+    float: left;
+    margin-right: 3px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #4d2600;
+    padding-top: 1px;
+}
+
+#centralizar_opcoes {
+    width: 68px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#excluir {
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 20px;
+}
+
+#visualizar {
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+/***************** RODAPÉ *******************/
+
+#rodape {
+    width: 900px;
+    height: 50px;
+    background-color: #ffa31a;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 10px;
+}
+
+#center {
+    width: 350px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+
+#desc_rodape {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #4d2600;
+    text-align: center;
+    font-weight: bold;
+}
